@@ -1,3 +1,30 @@
+body {
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.65;
+	font-family: Montserrat, sans-serif;
+	overflow-x: hidden;
+	color: #4c4d50;
+	background-color: #905fdf
+}
+
+input,
+textarea {
+	border: #666 1px solid;
+	outline: 0
+}
+
+input:focus:required:invalid,
+textarea:focus:required:invalid {
+	border-color: rgb(219, 219, 219)
+}
+
+input:required:valid,
+textarea:required:valid {
+	border-color: green
+}
+
 body.compensate-for-scrollbar {
 	overflow: hidden
 }
@@ -870,34 +897,6 @@ body.compensate-for-scrollbar {
 ::selection {
 	background-color: #e0bbaf;
 	color: #fff
-}
-
-body {
-	font-size: 16px;
-	min-width: 320px;
-	position: relative;
-	line-height: 1.65;
-	font-family: Montserrat, sans-serif;
-	overflow-x: hidden;
-	color: #4c4d50;
-	background: url(../img/pattern.png);
-	background-color: #905fdf
-}
-
-input,
-textarea {
-	border: #666 1px solid;
-	outline: 0
-}
-
-input:focus:required:invalid,
-textarea:focus:required:invalid {
-	border-color: rgb(219, 219, 219)
-}
-
-input:required:valid,
-textarea:required:valid {
-	border-color: green
 }
 
 .img-responsive {
