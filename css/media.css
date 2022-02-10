@@ -31,6 +31,13 @@
 	}
 }
 
+@media (max-width:768px) {
+	.title {
+		padding-bottom: 15px;
+		font-size: 1.8em
+	}
+}
+
    @media (max-width:576px) {
       .fancybox-thumbs {
          width: 110px
@@ -42,6 +49,12 @@
          max-width: calc(100% - 10px)
       }
    }
+
+	@media (max-width:768px) {
+		.container_custom-padding_top-150 {
+			padding-top: 30px
+		}
+	}
 
    @media (max-width:768px) {
       .header__top-bar-wrapper {
