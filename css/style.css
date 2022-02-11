@@ -30,7 +30,7 @@ body {
 .container {
 	width: 1024px;
 	max-width: 100%;
-	padding: 60px 30px;
+	padding: 40px 30px;
 	margin: 0 auto;
 	background-color: #fff
 }
@@ -1095,12 +1095,13 @@ body {
 
 
 .footer {	
-	width: 100%;
-	padding: 30px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;	
+	
 	font-weight: lighter;
 	-webkit-box-shadow: 0 0 15px rgba(0, 0, 0, .3);
 	box-shadow: 0 0 15px rgba(0, 0, 0, .3);
-	position: relative;
 	z-index: 1
 }
 
@@ -1147,12 +1148,17 @@ body {
 	grid-gap: 15px
 }
 
+.footer_row_1 {
+	display: flex;
+	align-items: center;
+}
+
 .social_buttons_wrapper {	
-	position: absolute;
-	top: 70px;
-   right: 100px;
-	transform: translate(-50%, -50%);
-	width: 550px
+	display: flex;
+	justify-content:center;
+	/* transform: translate(-50%, -50%); */
+	width: 550px;
+	margin-bottom: 70px;
  }
  
  /* Style the Un-order list by setting its list-style to none */
