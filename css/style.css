@@ -1,11 +1,13 @@
 *{padding:0;margin:0;border:0;}
 *,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+box-sizing: border-box;
 :focus,:active{outline:none;}
 a:focus,a:active{outline:none;}
-nav,partners,header,aside{display:block;}
+nav,header,aside{display:block;}
 html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
 input,button,textarea{font-family:inherit;}
 input::-ms-clear{display:none;}
+list-style-type:none;
 button{cursor:pointer;}
 button::-moz-focus-inner{padding:0;border:0;}
 a,a:visited{text-decoration:none;}
@@ -25,71 +27,6 @@ body {
 	background: url(../img/pattern.png);
 }
 
-input,
-textarea {
-	border: #666 1px solid;
-	outline: 0
-}
-
-input:focus:required:invalid,
-textarea:focus:required:invalid {
-	border-color: rgb(219, 219, 219)
-}
-
-input:required:valid,
-textarea:required:valid {
-	border-color: green
-}
-
-::-webkit-input-placeholder {
-	color: #666
-}
-
-::-moz-placeholder {
-	color: #666
-}
-
-::-ms-input-placeholder {
-	color: #666
-}
-
-::placeholder {
-	color: #666
-}
-
-::-moz-selection {
-	background-color: #e0bbaf;
-	color: #fff
-}
-
-::selection {
-	background-color: #e0bbaf;
-	color: #fff
-}
-
-.img-responsive {
-	display: block;
-	max-width: 100%;
-	height: auto
-}
-
-.img-responsive.img-width {
-	width: 100%
-}
-
-b,
-strong {
-	font-weight: 700
-}
-
-* {
-	margin: 0;
-	padding: 0;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	list-style-type: none
-}
-
 .container {
 	width: 1024px;
 	max-width: 100%;
@@ -105,7 +42,6 @@ strong {
 .container_custom-padding_top-150 {
 	padding-top: 150px
 }
-
 
 .section {
 	padding: 0
@@ -178,7 +114,6 @@ strong {
 .header__top-bar-text:last-of-type {
 	justify-self: center
 }
-
 
 .header__top-bar-link {
 	color: #fff;
@@ -373,7 +308,6 @@ strong {
 	right: 100%
 }
 
-
 .slider__img {
 	height: 100%;
 	-o-object-fit: cover;
@@ -449,7 +383,6 @@ strong {
 	font-size: 2.3em
 }
 
-
 .slider__sub-title {
 	padding-top: 30px;
 	color: #fff;
@@ -516,7 +449,6 @@ strong {
 	grid-gap: 15px
 }
 
-
 .services__elem {
 	-webkit-box-shadow: 0 0 2px rgba(0, 0, 0, .2);
 	box-shadow: 0 0 2px rgba(0, 0, 0, .2);
@@ -582,7 +514,6 @@ strong {
 	z-index: 1
 }
 
-
 .services__title {
 	text-transform: uppercase;
 	margin-bottom: 7.5px;
@@ -590,7 +521,6 @@ strong {
 	z-index: 1;
 	letter-spacing: 2px
 }
-
 
 .services__text {
 	position: relative;
@@ -667,7 +597,6 @@ strong {
 	grid-template-columns: 1fr;
 	position: relative
 }
-
 
 .contacts__map {
 	width: 100%;
