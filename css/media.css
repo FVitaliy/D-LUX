@@ -1,8 +1,16 @@
-@media (max-width: 768px) {
+@media (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+@media (max-width: 767px) {
 	#elemLogo {
 		 width: 150px;
 		 height: 150px;
-	}
+	}	
+}
+
+@media (max-width:7676px) {
 	.social_buttons_wrapper {	
 		position: absolute;
 		top: 70px;
