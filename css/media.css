@@ -1,3 +1,9 @@
+@media (max-width: 768px) {
+	#elemLogo {
+		 width: 150px;
+		 height: 150px;
+	}
+}
 @media (max-height:576px) {
 	.fancybox-slide {
 		padding-left: 6px;

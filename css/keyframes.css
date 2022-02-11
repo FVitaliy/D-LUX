@@ -1,0 +1,209 @@
+
+@keyframes fadeOut {
+	0% {
+		opacity: 1
+	}
+	100% {
+		opacity: 0
+	}
+}
+
+@keyframes slideinRight {
+   from {
+       right: -500px;
+   }
+
+   to {
+       right: 0px;
+   }
+}
+
+@-webkit-keyframes slideinRight {
+   from {
+       right: -500px;
+   }
+
+   to {
+       right: 0px;
+   }
+}
+
+@-moz-keyframes slideinRight {
+   from {
+       right: -500px;
+   }
+
+   to {
+       right: 0px;
+   }
+}
+
+@-o-keyframes slideinRight {
+   from {
+       right: -500px;
+   }
+
+   to {
+       right: 0px;
+   }
+}
+
+/**********************************/
+@keyframes slideinLeft {
+   from {
+       left: -500px;
+   }
+
+   to {
+       left: 0px;
+   }
+}
+
+@-webkit-keyframes slideinLeft {
+   from {
+       left: -500px;
+   }
+
+   to {
+       left: 0px;
+   }
+}
+
+@-moz-keyframes slideinLeft {
+   from {
+       left: -500px;
+   }
+
+   to {
+       left: 0px;
+   }
+}
+
+@-o-keyframes slideinLeft {
+   from {
+       left: -500px;
+   }
+
+   to {
+       left: 0px;
+   }
+}
+
+/**********************************/
+
+@keyframes slideoutRight {
+   from {
+       right: 0px;
+   }
+
+   to {
+       right: -500px;
+   }
+}
+
+@-webkit-keyframes slideoutRight {
+   from {
+       right: 0px;
+   }
+
+   to {
+       right: -500px;
+   }
+}
+
+@-moz-keyframes slideoutRight {
+   from {
+       right: 0px;
+   }
+
+   to {
+       right: -500px;
+   }
+}
+
+@-o-keyframes slideoutRight {
+   from {
+       right: 0px;
+   }
+
+   to {
+       right: -500px;
+   }
+}
+
+/**********************************/
+
+@keyframes slideoutLeft {
+   from {
+       left: 0px;
+   }
+
+   to {
+       left: -500px;
+   }
+}
+
+@-webkit-keyframes slideoutLeft {
+   from {
+       left: 0px;
+   }
+
+   to {
+       left: -500px;
+   }
+}
+
+@-moz-keyframes slideoutLeft {
+   from {
+       left: 0px;
+   }
+
+   to {
+       left: -400px;
+   }
+}
+
+@-o-keyframes slideoutLeft {
+   from {
+       left: 0px;
+   }
+
+   to {
+       left: -500px;
+   }
+}
+
+
+/* booking button */
+@-webkit-keyframes wave-stroke {
+   100% {
+       width: 200%;
+       height: 200%;
+       border-color: transparent;
+       opacity: 0;
+   }
+}
+@-moz-keyframes wave-stroke {
+   100% {
+       width: 200%;
+       height: 200%;
+       border-color: transparent;
+       opacity: 0;
+   }
+}
+@-o-keyframes wave-stroke {
+   100% {
+       width: 200%;
+       height: 200%;
+       border-color: transparent;
+       opacity: 0;
+   }
+}
+@keyframes wave-stroke {
+   100% {
+       width: 200%;
+       height: 200%;
+       border-color: transparent;
+       opacity: 0;
+   }
+}

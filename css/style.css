@@ -41,14 +41,6 @@ textarea:required:valid {
 	border-color: green
 }
 
-@font-face {
-	font-family: Merriweather-LightItalic;
-	font-weight: 400;
-	font-style: normal;
-	src: url(../fonts/Merriweather-LightItalic/Merriweather-LightItalic.eot);
-	src: url(../fonts/Merriweather-LightItalic/Merriweather-LightItalic.eot?#iefix) format("embedded-opentype"), url(../fonts/Merriweather-LightItalic/Merriweather-LightItalic.woff) format("woff"), url(../fonts/Merriweather-LightItalic/Merriweather-LightItalic.ttf) format("truetype")
-}
-
 ::-webkit-input-placeholder {
 	color: #666
 }
@@ -1018,7 +1010,6 @@ strong {
 }
 
 =======
-@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,600,700&subset=cyrillic);
 .owl-carousel,
 .owl-carousel .owl-item {
 	-webkit-tap-highlight-color: transparent;
@@ -1158,14 +1149,6 @@ strong {
 	animation-name: fadeOut
 }
 
-@keyframes fadeOut {
-	0% {
-		opacity: 1
-	}
-	100% {
-		opacity: 0
-	}
-}
 
 .owl-height {
 	transition: height .5s ease-in-out
@@ -1232,7 +1215,6 @@ strong {
 	width: 100%
 }
 
-@import url(https://fonts.googleapis.com/css?family=Play:400,700&subset=latin,cyrillic);
 .yBodyOverflowHidden {
     overflow: hidden;
 }
@@ -1391,205 +1373,7 @@ strong {
 
 
 /**********************************/
-@keyframes slideinRight {
-    from {
-        right: -500px;
-    }
 
-    to {
-        right: 0px;
-    }
-}
-
-@-webkit-keyframes slideinRight {
-    from {
-        right: -500px;
-    }
-
-    to {
-        right: 0px;
-    }
-}
-
-@-moz-keyframes slideinRight {
-    from {
-        right: -500px;
-    }
-
-    to {
-        right: 0px;
-    }
-}
-
-@-o-keyframes slideinRight {
-    from {
-        right: -500px;
-    }
-
-    to {
-        right: 0px;
-    }
-}
-
-/**********************************/
-@keyframes slideinLeft {
-    from {
-        left: -500px;
-    }
-
-    to {
-        left: 0px;
-    }
-}
-
-@-webkit-keyframes slideinLeft {
-    from {
-        left: -500px;
-    }
-
-    to {
-        left: 0px;
-    }
-}
-
-@-moz-keyframes slideinLeft {
-    from {
-        left: -500px;
-    }
-
-    to {
-        left: 0px;
-    }
-}
-
-@-o-keyframes slideinLeft {
-    from {
-        left: -500px;
-    }
-
-    to {
-        left: 0px;
-    }
-}
-
-/**********************************/
-
-@keyframes slideoutRight {
-    from {
-        right: 0px;
-    }
-
-    to {
-        right: -500px;
-    }
-}
-
-@-webkit-keyframes slideoutRight {
-    from {
-        right: 0px;
-    }
-
-    to {
-        right: -500px;
-    }
-}
-
-@-moz-keyframes slideoutRight {
-    from {
-        right: 0px;
-    }
-
-    to {
-        right: -500px;
-    }
-}
-
-@-o-keyframes slideoutRight {
-    from {
-        right: 0px;
-    }
-
-    to {
-        right: -500px;
-    }
-}
-
-/**********************************/
-
-@keyframes slideoutLeft {
-    from {
-        left: 0px;
-    }
-
-    to {
-        left: -500px;
-    }
-}
-
-@-webkit-keyframes slideoutLeft {
-    from {
-        left: 0px;
-    }
-
-    to {
-        left: -500px;
-    }
-}
-
-@-moz-keyframes slideoutLeft {
-    from {
-        left: 0px;
-    }
-
-    to {
-        left: -400px;
-    }
-}
-
-@-o-keyframes slideoutLeft {
-    from {
-        left: 0px;
-    }
-
-    to {
-        left: -500px;
-    }
-}
-
-
-/* booking button */
-@-webkit-keyframes wave-stroke {
-    100% {
-        width: 200%;
-        height: 200%;
-        border-color: transparent;
-        opacity: 0;
-    }
-}
-@-moz-keyframes wave-stroke {
-    100% {
-        width: 200%;
-        height: 200%;
-        border-color: transparent;
-        opacity: 0;
-    }
-}
-@-o-keyframes wave-stroke {
-    100% {
-        width: 200%;
-        height: 200%;
-        border-color: transparent;
-        opacity: 0;
-    }
-}
-@keyframes wave-stroke {
-    100% {
-        width: 200%;
-        height: 200%;
-        border-color: transparent;
-        opacity: 0;
-    }
-}
 
 
 .footer {	
