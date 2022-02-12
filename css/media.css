@@ -5,10 +5,16 @@
 }
 @media (max-width: 767px) {
 	#elemLogo {
-		 width: 150px;
-		 height: 150px;
+		 width: 100px;
+		 height: 100px;
 	}	
 }
+@media (max-width: 768px) {
+                                    #elemLogo {
+                                        width: 150px;
+                                        height: 150px;
+                                    }
+                                }
 
 @media (max-width:767px) {
 	.social_buttons_wrapper {	
