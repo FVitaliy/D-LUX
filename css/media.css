@@ -5,17 +5,15 @@
 }
 @media (max-width: 767px) {
 	#elemLogo {
-		 width: 100px;
-		 height: 100px;
+		 width: 150px;
+		 height: 150px;
 	}	
 }
-@media (max-width: 768px) {
-                                    #elemLogo {
-                                        width: 150px;
-                                        height: 150px;
-                                    }
-                                }
-
+@media (max-width: 767px) {
+.social_buttons_wrapper {	
+	width: 30%;
+	}
+}
 @media (max-width:767px) {
 	.social_buttons_wrapper {	
 		position: absolute;
