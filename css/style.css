@@ -61,9 +61,9 @@ body {
 	padding-bottom: 45px
 }
 
-.title_aligned_left {
+/* .title_aligned_left {
 	text-align: left
-}
+} */
 
 .title_alone {
 	padding: 0
@@ -612,8 +612,8 @@ body {
 .contacts__info {	
 	padding: 30px;	
 	background-color: #fff;
-	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .1);
-	box-shadow: 0 0 5px rgba(0, 0, 0, .1)
+	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .07);
+	box-shadow: 0 0 20px rgba(0, 0, 0, .07)
 }
 
 .contacts__main-info {
@@ -624,8 +624,7 @@ body {
 	-webkit-box-align: start;
 	-webkit-align-items: flex-start;
 	-ms-flex-align: start;
-	align-items: flex-start;
-	margin: 0 0 15px 320px;
+	align-items: flex-start
 }
 
 .contacts__accent-icon {
