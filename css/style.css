@@ -675,7 +675,7 @@ body {
 .gallery__img-link:hover {
 	opacity: .9
 	background: #fff;
-	transform: scale(1.05);
+	transform: scale(1.2);
 
 }
 
