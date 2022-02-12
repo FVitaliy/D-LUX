@@ -643,8 +643,11 @@ body {
 
 .contacts__title {
 	font-size: 1.5em;
-	padding-bottom: 15px;
-	margin-left: 320px;
+	padding-bottom: 15px;	
+}
+
+.block_invitation {
+	margin: 0 auto;
 }
 
 .gallery {
