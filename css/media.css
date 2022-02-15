@@ -6,9 +6,9 @@
 
 @media (max-width: 767px) {		
 	.social_buttons_wrapper {	
-		width: 30%;
+		display: 30%;
 	}
-		.social_buttons_wrapper {	
+	.social_buttons_wrapper {	
 			position: absolute;
 			top: 70px;
 			right: 70px;
@@ -58,6 +58,10 @@
 	.fancybox-thumbs__list a {
 		max-width: calc(100% - 10px)
 	}
+
+	.container {
+		width: 100%;
+	}
 	.container_custom-padding_top-150 {
 		padding-top: 30px
 	}
@@ -68,7 +72,7 @@
 		display: none
 	}
 	.header__top-bar-link {
-		justify-self: center
+		justify-self: center;		
 	}
 	.header__bottom-bar {
 		height: auto
