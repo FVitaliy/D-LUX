@@ -101,7 +101,8 @@
 		height: auto
 	}
 	.header__bottom-bar-wrapper {
-		height: auto
+		height: auto;
+		margin-bottom: 20px
 	}
 	.header__nav {
 		height: auto;
