@@ -112,12 +112,12 @@
 		text-align: center
 	}
 	.header__nav-link {
-		margin: 5px;
+		margin: 0 auto;
 		letter-spacing: 0;
-		font-size: calc(10px + (20 - 10) * ((100vw - 320px) / (1200 - 320)));
+		font-size: calc(10px + (16 - 10) * ((100vw - 320px) / (767 - 320)));
 	}
 	.header__nav-link:first-of-type {
-		margin-left: 5px
+		margin: 0 auto;
 	}
 	.header__nav-link:last-of-type {
 		margin-right: 5px
