@@ -1,20 +1,94 @@
-*{padding:0;margin:0;border:0;}
-*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 box-sizing: border-box;
-:focus,:active{outline:none;}
-a:focus,a:active{outline:none;}
-nav,header,aside{display:block;}
-html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
-input,button,textarea{font-family:inherit;}
-input::-ms-clear{display:none;}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
 list-style-type:none;
-button{cursor:pointer;}
-button::-moz-focus-inner{padding:0;border:0;}
-a,a:visited{text-decoration:none;}
-a:hover{text-decoration:none;}
-ul li{list-style:none;}
-img{vertical-align:top;}
-h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
 
 body {
 	font-size: 16px;
@@ -23,7 +97,7 @@ body {
 	line-height: 1.65;
 	font-family: Montserrat, sans-serif;
 	overflow-x: hidden;
-	color: #4c4d50;	
+	color: #4c4d50;
 	background: url(../img/pattern.png)
 }
 
@@ -613,16 +687,16 @@ body {
 	box-shadow: 0 0 5px rgba(0, 0, 0, .1);
 	margin-bottom: 50px;
 	/* cursor: url(https://api-maps.yandex.ru/2.1.79/build/release/images/cursor/grab.cur) 16 16, url(https://api-maps.yandex.ru/2.1.79/build/release/images/cursor/grab.cur), move; */
-	}
+}
 
-.contacts__info {	
+.contacts__info {
 	padding: 30px;
-	margin: 0 auto;	
+	margin: 0 auto;
 	background-color: #fff;
 	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .07);
 	box-shadow: 0 0 20px rgba(0, 0, 0, .07);
 	border-radius: 50px 0 50px 0;
-  }
+}
 
 .contacts__info:hover {
 	box-shadow: 0 0 30px rgba(0, 0, 0, .2)
@@ -632,7 +706,7 @@ body {
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
-	display: flex;	
+	display: flex;
 	-webkit-box-align: start;
 	-webkit-align-items: flex-start;
 	-ms-flex-align: start;
@@ -654,7 +728,7 @@ body {
 
 .contacts__title {
 	font-size: 1.5em;
-	padding-bottom: 15px;	
+	padding-bottom: 15px;
 }
 
 .block_invitation {
@@ -684,8 +758,7 @@ body {
 }
 
 .gallery__img-link:hover {
-	opacity: .9
-	background: #fff;
+	opacity: .9 background: #fff;
 	transform: scale(1.1)
 }
 
@@ -693,9 +766,9 @@ body {
 	width: 305px;
 	height: 350px;
 	-o-object-fit: cover;
-	object-fit: cover;	
+	object-fit: cover;
 	box-shadow: 0px 1px 10px 0px #0a0000af;
-	border-radius: 50px 0 50px 0 
+	border-radius: 50px 0 50px 0
 }
 
 .reviews__item {
@@ -947,158 +1020,179 @@ body {
 
 
 .yBodyOverflowHidden {
-    overflow: hidden;
+	overflow: hidden;
 }
+
 .yButton {
-    position: fixed !important;
-    width: 100px !important;
-    height: 100px !important;
-    box-sizing: border-box !important;
+	position: fixed !important;
+	width: 100px !important;
+	height: 100px !important;
+	box-sizing: border-box !important;
 }
+
 .yButton.bottom {
-    bottom: 30px !important;
+	bottom: 30px !important;
 }
+
 .yButton.top {
-    top: 30px !important;
+	top: 30px !important;
 }
+
 .yButton.right {
-    right: 30px !important;
+	right: 30px !important;
 }
+
 .yButton.left {
-    left: 30px !important;
+	left: 30px !important;
 }
+
 .yButtonBackground {
-    position: absolute !important;
-    left: 0 !important;
-    top: 0 !important;
-    width: 100px !important;
-    height: 100px !important;
-    border-radius: 100% !important;
-    background-color: #1c84c6;
-    opacity: .8 !important;
-    box-sizing: border-box !important;
+	position: absolute !important;
+	left: 0 !important;
+	top: 0 !important;
+	width: 100px !important;
+	height: 100px !important;
+	border-radius: 100% !important;
+	background-color: #1c84c6;
+	opacity: .8 !important;
+	box-sizing: border-box !important;
 }
 
 .yButtonWave {
-    position: absolute !important;
-    left: 50% !important;
-    top: 50% !important;
-    -webkit-transform: translate(-50%, -50%) !important;
-    -moz-transform: translate(-50%, -50%) !important;
-    -o-transform: translate(-50%, -50%) !important;
-    transform: translate(-50%, -50%) !important;
-    border-radius: 50% !important;
-    border-color: #1c84c6;
-    color: #1c84c6;
-    border: 2px solid !important;
-    width: 105%;
-    height: 105%;
-    opacity: .9 !important;
-    box-sizing: border-box !important;
-    -webkit-animation: wave-stroke 2s infinite cubic-bezier(.37, 0, .8, .77);
-    -moz-animation: wave-stroke 2s infinite cubic-bezier(.37, 0, .8, .77);
-    -o-animation: wave-stroke 2s infinite cubic-bezier(.37, 0, .8, .77);
-    animation: wave-stroke 2s infinite cubic-bezier(.37, 0, .8, .77);
+	position: absolute !important;
+	left: 50% !important;
+	top: 50% !important;
+	-webkit-transform: translate(-50%, -50%) !important;
+	-moz-transform: translate(-50%, -50%) !important;
+	-o-transform: translate(-50%, -50%) !important;
+	transform: translate(-50%, -50%) !important;
+	border-radius: 50% !important;
+	border-color: #1c84c6;
+	color: #1c84c6;
+	border: 2px solid !important;
+	width: 105%;
+	height: 105%;
+	opacity: .9 !important;
+	box-sizing: border-box !important;
+	-webkit-animation: wave-stroke 2s infinite cubic-bezier(.37, 0, .8, .77);
+	-moz-animation: wave-stroke 2s infinite cubic-bezier(.37, 0, .8, .77);
+	-o-animation: wave-stroke 2s infinite cubic-bezier(.37, 0, .8, .77);
+	animation: wave-stroke 2s infinite cubic-bezier(.37, 0, .8, .77);
 }
+
 .yButtonIcon {
-    display: none;
-    box-sizing: border-box !important;
+	display: none;
+	box-sizing: border-box !important;
 }
+
 .yButtonText {
-    position: absolute !important;
-    top: 25px !important;
-    left: 5px !important;
-    right: 5px !important;
-    border-radius: 50% !important;
-    width: 90px !important;
-    height: 50px !important;
-    color: #fff !important;
-    font-size: 15px !important;
-    line-height: 25px !important;
-    font-weight: 400 !important;
-    text-align: center !important;
-    vertical-align: middle !important;
-    letter-spacing: 1.5px !important;
-    font-family: 'Play', sans-serif !important;
-    box-sizing: border-box !important;
+	position: absolute !important;
+	top: 25px !important;
+	left: 5px !important;
+	right: 5px !important;
+	border-radius: 50% !important;
+	width: 90px !important;
+	height: 50px !important;
+	color: #fff !important;
+	font-size: 15px !important;
+	line-height: 25px !important;
+	font-weight: 400 !important;
+	text-align: center !important;
+	vertical-align: middle !important;
+	letter-spacing: 1.5px !important;
+	font-family: 'Play', sans-serif !important;
+	box-sizing: border-box !important;
 }
+
 .yWidgetBlock {
-    position: fixed !important;
-    top: 0px !important;
-    width: 500px !important;
-    height: 100% !important;
-    background-color: #fff !important;
-    background-image: url(/images/widgetBack.png) !important;
-    background-position: center 10% !important;
-    background-repeat: no-repeat !important;
-    box-sizing: border-box !important;
+	position: fixed !important;
+	top: 0px !important;
+	width: 500px !important;
+	height: 100% !important;
+	background-color: #fff !important;
+	background-image: url(/images/widgetBack.png) !important;
+	background-position: center 10% !important;
+	background-repeat: no-repeat !important;
+	box-sizing: border-box !important;
 }
+
 .yWidgetBlock.right {
-    right: -500px !important;
+	right: -500px !important;
 }
+
 .yWidgetBlock.left {
-    left: -500px !important;
+	left: -500px !important;
 }
+
 .yWidgetIFrame {
-    width: 100% !important;
-    height: 100% !important;
-    box-sizing: border-box !important;
+	width: 100% !important;
+	height: 100% !important;
+	box-sizing: border-box !important;
 }
 
 .yWidgetCover {
-    width: 100% !important;
-    height: 100% !important;
-    background: #333 !important;
-    opacity: .5 !important;
-    display: none;
-    position: fixed !important;
-    top: 0px !important;
-    left: 0px !important;
-    box-sizing: border-box !important;
+	width: 100% !important;
+	height: 100% !important;
+	background: #333 !important;
+	opacity: .5 !important;
+	display: none;
+	position: fixed !important;
+	top: 0px !important;
+	left: 0px !important;
+	box-sizing: border-box !important;
 }
 
 .yCloseIcon {
-    position: fixed !important;
-    top: 13px !important;
-    width: 35px !important;
-    height: 35px !important;
-    border-radius: 50% !important;
-    background: #fff !important;
-    display: none;
-    background-image: url(/images/icon-close.png) !important;
-    background-repeat: no-repeat !important;
-    background-position:center center !important;
-    background-size: 12px 12px !important;
-    box-sizing: border-box !important;
+	position: fixed !important;
+	top: 13px !important;
+	width: 35px !important;
+	height: 35px !important;
+	border-radius: 50% !important;
+	background: #fff !important;
+	display: none;
+	background-image: url(/images/icon-close.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center center !important;
+	background-size: 12px 12px !important;
+	box-sizing: border-box !important;
 }
+
 .yCloseIcon.left {
-    left: 513px !important;
+	left: 513px !important;
 }
+
 .yCloseIcon.right {
-    right: 513px !important;
+	right: 513px !important;
 }
+
 .yWidgetShow {
-    animation-duration: .4s !important;
+	animation-duration: .4s !important;
 }
+
 .yWidgetShow.right {
-    right:0px !important;
-    animation-name: slideinRight !important;
+	right: 0px !important;
+	animation-name: slideinRight !important;
 }
+
 .yWidgetShow.left {
-    left:0px !important;
-    animation-name: slideinLeft !important;
+	left: 0px !important;
+	animation-name: slideinLeft !important;
 }
+
 .yWidgetHide {
-    animation-duration: .4s !important;
+	animation-duration: .4s !important;
 }
+
 .yWidgetHide.right {
-    right:-500px !important;
-    animation-name: slideoutRight !important;
+	right: -500px !important;
+	animation-name: slideoutRight !important;
 }
+
 .yWidgetHide.left {
-    left:-500px !important;
-    animation-name: slideoutLeft !important;
+	left: -500px !important;
+	animation-name: slideoutLeft !important;
 }
+
 /* ÐÐ½Ð¸Ð¼Ð°Ñ†Ð¸Ð¸ */
 
 
@@ -1107,11 +1201,11 @@ body {
 
 
 
-.footer {	
+.footer {
 	display: flex;
 	flex-direction: column;
-	align-items: center;	
-	
+	align-items: center;
+
 	font-weight: lighter;
 	-webkit-box-shadow: 0 0 15px rgba(0, 0, 0, .3);
 	box-shadow: 0 0 15px rgba(0, 0, 0, .3);
@@ -1166,23 +1260,23 @@ body {
 	align-items: center;
 }
 
-.social_buttons_wrapper {	
+.social_buttons_wrapper {
 	display: flex;
-	justify-content:center;
+	justify-content: center;
 	/* transform: translate(-50%, -50%); */
 	width: 550px;
 	margin-bottom: 70px;
- }
- 
- /* Style the Un-order list by setting its list-style to none */
- .social_buttons_wrapper ul {
+}
+
+/* Style the Un-order list by setting its list-style to none */
+.social_buttons_wrapper ul {
 	list-style: none;
- }
- 
- /* Style the list items inside the UL list, by setting its width, height and line-height 
+}
+
+/* Style the list items inside the UL list, by setting its width, height and line-height 
 	and float them to left and set its border and border-radius.
   */
- .social_buttons_wrapper ul li {
+.social_buttons_wrapper ul li {
 	width: 75px;
 	height: 75px;
 	line-height: 75px;
@@ -1193,119 +1287,123 @@ body {
 	border: 5px solid #D8E2DC;
 	float: left;
 	transition: all 0.5s ease;
- }
- 
- /* Style the icons by setting its color and margin-top value to 20px 
+}
+
+/* Style the icons by setting its color and margin-top value to 20px 
  to align it properly */
- .social_buttons_wrapper ul li .fa {
+.social_buttons_wrapper ul li .fa {
 	color: #D8E2DC;
 	margin-top: 20px;
 	transition: all 0.5s ease;
- }
- 
- /* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
+}
+
+/* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
 	to icons for glowing effect and use transition property for smooth transition effect. */
- /*facebook*/
- .social_buttons_wrapper ul li:hover.facebook {
+/*facebook*/
+.social_buttons_wrapper ul li:hover.facebook {
 	border: 5px solid #3b5998;
 	box-shadow: 0 0 15px #3b5998;
 	transition: all 0.5s ease;
- }
- 
- .social_buttons_wrapper ul li:hover .fa-facebook {
+}
+
+.social_buttons_wrapper ul li:hover .fa-facebook {
 	color: #3b5998;
 	text-shadow: 0 0 15px #3b5998;
 	transition: all 0.5s ease;
- }
- 
- /*twitter*/
- .social_buttons_wrapper ul li:hover.twitter {
+}
+
+/*twitter*/
+.social_buttons_wrapper ul li:hover.twitter {
 	border: 5px solid #00aced;
 	box-shadow: 0 0 15px #00aced;
 	transition: all 0.5s ease;
- }
- 
- .social_buttons_wrapper ul li:hover .fa-twitter {
+}
+
+.social_buttons_wrapper ul li:hover .fa-twitter {
 	color: #00aced;
 	text-shadow: 0 0 15px #00aced;
 	transition: all 0.5s ease;
- }
- 
- /* instagram */
- .social_buttons_wrapper ul li:hover.instagram {
+}
+
+/* instagram */
+.social_buttons_wrapper ul li:hover.instagram {
 	border: 5px solid #bc2a8d;
 	box-shadow: 0 0 15px #bc2a8d;
 	transition: all 0.5s ease;
- }
- 
- .social_buttons_wrapper ul li:hover .fa-instagram {
+}
+
+.social_buttons_wrapper ul li:hover .fa-instagram {
 	color: #bc2a8d;
 	text-shadow: 0 0 15px #bc2a8d;
 	transition: all 0.5s ease;
- }
- 
- /* google */
- .social_buttons_wrapper ul li:hover.google {
+}
+
+/* google */
+.social_buttons_wrapper ul li:hover.google {
 	border: 5px solid #dd4b39;
 	box-shadow: 0 0 15px #dd4b39;
 	transition: all 0.5s ease;
- }
- 
- .social_buttons_wrapper ul li:hover .fa-google {
+}
+
+.social_buttons_wrapper ul li:hover .fa-google {
 	color: #dd4b39;
 	text-shadow: 0 0 15px #dd4b39;
 	transition: all 0.5s ease;
- }
- 
- /* whatsapp */
- .social_buttons_wrapper ul li:hover.whatsapp {
+}
+
+/* whatsapp */
+.social_buttons_wrapper ul li:hover.whatsapp {
 	border: 5px solid #4dc247;
 	box-shadow: 0 0 15px #4dc247;
 	transition: all 0.5s ease;
- }
- 
- .social_buttons_wrapper ul li:hover .fa-whatsapp {
+}
+
+.social_buttons_wrapper ul li:hover .fa-whatsapp {
 	color: #4dc247;
 	text-shadow: 0 0 15px #4dc247;
 	transition: all 0.5s ease;
- }
- 
- 
- /* media queries */
- 
- @media screen and (max-width: 640px){
-	.social_buttons_wrapper {
-		 width: 350px;
-	}
-	.social_buttons_wrapper ul li{
-		 margin-top: 10px;
-	}
-	.social_buttons_wrapper ul li.google{
-		 margin-left: 60px;
-	}
- }
- 
- 
- @media screen and (max-width: 340px){
-	.social_buttons_wrapper {
-		 width: 150px;
-	}
-	.social_buttons_wrapper ul li{
-		 margin:15px;
-	}
-	.social_buttons_wrapper ul li.google{
-		 margin-left: 15px;
-	}
- }
+}
 
- .fancybox-active {
+
+/* media queries */
+
+@media screen and (max-width: 640px) {
+	.social_buttons_wrapper {
+		width: 350px;
+	}
+
+	.social_buttons_wrapper ul li {
+		margin-top: 10px;
+	}
+
+	.social_buttons_wrapper ul li.google {
+		margin-left: 60px;
+	}
+}
+
+
+@media screen and (max-width: 340px) {
+	.social_buttons_wrapper {
+		width: 150px;
+	}
+
+	.social_buttons_wrapper ul li {
+		margin: 15px;
+	}
+
+	.social_buttons_wrapper ul li.google {
+		margin-left: 15px;
+	}
+}
+
+.fancybox-active {
 	height: auto
 }
 
 .fancybox-is-hidden {
 	left: -9999px;
 	margin: 0;
-	position: absolute!important;
+	position: absolute !important;
 	top: -9999px;
 	visibility: hidden
 }
@@ -1892,12 +1990,15 @@ body {
 		padding-left: 6px;
 		padding-right: 6px
 	}
+
 	.fancybox-slide--image {
 		padding: 6px 0
 	}
+
 	.fancybox-close-small {
 		right: -6px
 	}
+
 	.fancybox-slide--image .fancybox-close-small {
 		background: #4e4e4e;
 		color: #f2f4f6;
@@ -1908,10 +2009,12 @@ body {
 		top: 0;
 		width: 36px
 	}
+
 	.fancybox-caption {
 		padding-left: 12px;
 		padding-right: 12px
 	}
+
 	@supports (padding:max(0px)) {
 		.fancybox-caption {
 			padding-left: max(12px, env(safe-area-inset-left));

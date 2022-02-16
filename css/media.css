@@ -101,7 +101,7 @@
 		height: auto
 	}
 	.header__bottom-bar-wrapper {
-		height: auto
+		height: auto;
 	}
 	.header__nav {
 		height: auto;
@@ -190,7 +190,8 @@
 		padding: 30px;
 		width: 100%;
 		-webkit-background-size: cover;
-		background-size: cover
+		background-size: cover;
+		background-position-x: right;
 	}
 	.services__title {
 		font-size: 1.3em;
