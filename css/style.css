@@ -255,9 +255,10 @@ body {
 .header__nav-link {
 	text-decoration: none;
 	color: #64456e;
-	margin: 0 15px;
+	margin: 40px 15px 15px 15px;
 	text-transform: uppercase;
-	letter-spacing: 1px
+	letter-spacing: 1px;
+	transition: all .25s;
 }
 
 .header__nav-link:hover {
@@ -1057,11 +1058,6 @@ body {
 	-webkit-box-align: start;
 	-ms-flex-align: start;
 	align-items: flex-start;
-}
-
-.header__nav-link {
-	margin-top: 40px;
-	transition: all .25s;
 }
 
 .header__nav-link_resized {
