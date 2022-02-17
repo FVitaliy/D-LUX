@@ -135,10 +135,6 @@ body {
 	padding-bottom: 45px
 }
 
-.title_aligned_left {
-	text-align: left
-}
-
 .title_alone {
 	padding: 0
 }
@@ -255,7 +251,8 @@ body {
 .header__nav-link {
 	text-decoration: none;
 	color: #64456e;
-	margin: 40px 15px 15px 15px;
+	/* margin: 40px 15px 15px 15px; */
+	margin: 25px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	transition: all .25s;
@@ -521,7 +518,9 @@ body {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: auto;
-	grid-gap: 15px
+	grid-gap: 15px;
+	padding: 0;
+	margin-bottom: 20px;
 }
 
 .services__elem {
@@ -583,7 +582,7 @@ body {
 .services__elem:hover {
 	background-color: #000000;
 	opacity: .9;
-	color: #000
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.884);
 }
 
 .services__elem::before {
@@ -853,22 +852,15 @@ body {
 
 .nav__items {
 	display: flex;
-	flex: 1 1 25%;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	height: auto;
-	padding: 15px 15px 0 15px;
+	/* padding-top: 15px; */
 	text-transform: uppercase;
 	text-decoration: none;
 	color: #e0bbaf;
-	margin: 0 15px;
-}
-
-.tabs_item {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	width: 100%;
+	margin: 0 auto;
 }
 
 .services-links__item {
@@ -884,7 +876,12 @@ body {
 
 .services-links__item span {
 	position: relative;
-	z-index: 2;
+	z-index: 2
+}
+
+.services-links__item_2 span {
+	position: relative;
+	z-index: 5
 }
 
 .services-links__item:hover {
@@ -897,26 +894,36 @@ body {
 	margin-bottom: 50px;
 }
 
-.services-lists__item {
+.services-lists__item,
+.services-lists__item_2 {
 	padding: 50px;
 	display: none;
-	margin: 0 30px;
+	margin: 0 auto;
 	display: none;
 	box-shadow: 0px 1px 10px 0px #0a0000af;
 	position: relative;
 	border-radius: 0 0 50px 50px;
 }
 
-.services-lists.services-lists__item {
+.services-lists .services-lists__item {
 	display: none;
 }
 
-.services-lists__item:before {
+.services-lists__item:before,
+.services-lists__item_2:before {
 	content: "";
-	height: 52px;
+	height: 53px;
 	width: 25%;
 	position: absolute;
-	top: -53px;
+	top: -54px;
+}
+
+.services-lists__item:before {
+	width: 25%;
+}
+
+.services-lists__item_2:before {
+	width: 50%;
 }
 
 .services-lists__item:nth-child(1):before {
@@ -939,9 +946,23 @@ body {
 	right: 0;
 }
 
-.services-lists__item:target {
-	display: block;
+.services-lists__item_2:nth-child(1):before {
+	background: #bc2a8d;
+	left: 0%;
+}
 
+.services-lists__item_2:nth-child(2):before {
+	background: #bc2a8d;
+	right: 0%;
+}
+
+.services-lists__item:target,
+.services-lists__item_2:target {
+	display: block
+}
+
+.male_haircuts:before {
+	display: none;
 }
 
 .services-lists__list {
