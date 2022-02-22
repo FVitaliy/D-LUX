@@ -517,7 +517,7 @@ body {
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: auto;
 	grid-gap: 15px;
-	padding: 0;
+	/* padding: 0; */
 	margin-bottom: 20px;
 }
 
@@ -1045,12 +1045,12 @@ body {
 }
 
 .link-disabled {
-	color: #d3d3d3;
-	pointer-events: none
+	color: #64456e;
+	/* pointer-events: none */
 }
 
 .link-disabled:hover {
-	color: #d3d3d3
+	color: #dd9b85
 }
 
 .services-lists__sub-text {
