@@ -933,7 +933,7 @@ body {
 .services-lists__item_2:before,
 .services-lists__item_3:before {
 	content: "";
-	height: 53px;
+	height: 54px;
 	position: absolute;
 	top: -54px;
 }
