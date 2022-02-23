@@ -876,6 +876,7 @@ body {
 	background-color: #ff5268;
 	color: #fff;
 	width: 94%;
+	border-radius: 5px;
 }
 
 .services-links__item3 {
@@ -956,7 +957,8 @@ body {
 .services-lists__item:nth-child(4):before,
 .services-lists__item2:nth-child(1):before,
 .services-lists__item3:nth-child(1):before {
-	background: #e00b9d
+	background: #e00b9d;
+	border-radius: 5px;
 }
 
 .services-lists__item:nth-child(1):before,
