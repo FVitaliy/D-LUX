@@ -4,12 +4,15 @@
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 :focus,
 :active {
 	outline: none;
 }
+
 
 a:focus,
 a:active {
@@ -25,13 +28,14 @@ aside {
 html,
 body {
 	height: 100%;
-	width: 100%;
+	width: 100%;	
 	font-size: 100%;
 	line-height: 1;
 	font-size: 14px;
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
+	
 }
 
 input,
@@ -81,10 +85,10 @@ h6 {
 }
 
 body {
-	font-size: 16px;
+	/* font-size: 16px; */
 	min-width: 320px;
 	position: relative;
-	line-height: 1.65;
+	line-height: 2.2;
 	font-family: Montserrat, sans-serif;
 	overflow-x: hidden;
 	color: #4c4d50;
@@ -271,8 +275,8 @@ body {
 }
 
 .logo {
-	width: 230px;
-	height: 230px;
+	width: 190px;
+	height: 190px;
 	background-color: #fff;
 	-webkit-box-shadow: 0 3px 1px rgba(0, 0, 0, .1);
 	box-shadow: 0 3px 1px rgba(0, 0, 0, .1);
